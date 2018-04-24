@@ -3,6 +3,7 @@ const conf = require('./config/defaultConfig');
 const chalk = require('chalk')
 const path = require('path');
 
+
 const server = http.createServer((req,res) =>{
   const filepath = path.join(conf.root,req.url);
   res.stausCode = 200;
