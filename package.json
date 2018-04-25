@@ -4,8 +4,10 @@
   "description": "test nodejs  web server",
   "main": ".eslintrc.js",
   "dependencies": {
+    "babel-eslint": "^8.2.3",
     "chalk": "^2.4.0",
     "handlebars": "^4.0.11",
+    "install": "^0.11.0",
     "pre-commit": "^1.2.2"
   },
   "devDependencies": {
@@ -17,7 +19,7 @@
     "fix": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "pre-commit":[
+  "pre-commit": [
     "fix",
     "lint"
   ],

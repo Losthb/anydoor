@@ -5,6 +5,7 @@ module.exports = {
       "allow": ["warn", "error", "info"]
     }]
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "script"
